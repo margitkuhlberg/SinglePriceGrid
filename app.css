@@ -1,0 +1,250 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Karla", sans-serif;
+}
+
+body {
+    background-color: rgb(230, 239, 246);
+    width: 1440px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 645px;
+    height: 470px;
+    background-color: white;
+    border: 0;
+    border-radius: 8px;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.upper-card {
+    background-color: white;
+    height: 45%;
+    border-radius: 8px 8px 0 0;
+    padding: 6%;
+    padding-right: 10%;
+    box-shadow: 0px 5px 20px 4px rgb(214, 225, 234);
+}
+
+.lower-card {
+    height: 55%;
+    border-radius: 0 0 8px 8px;
+    box-shadow: 0px 20px 16px 4px rgb(214, 225, 234);
+}
+
+.lower-card-left {
+    background-color: hsl(179, 62%, 43%);
+    height: 100%;
+    width: 50%;
+    float: left;
+    border-radius: 0 0 0 8px;
+    padding: 6%;
+}
+
+.lower-card-right {
+    background-color: rgb(73, 190, 189);
+    width: 50%;
+    float: right;
+    height: 100%;
+    padding: 6%;
+    border-radius: 0 0 8px 0;
+}
+
+h1 {
+    color: hsl(179, 62%, 43%);
+    font-weight: 500;
+    font-size: 23px;
+    padding-bottom: 1rem;
+}
+
+.shout-out {
+    color: hsl(71, 73%, 54%);
+    padding-top: 0.5rem;
+    padding-bottom: 0.7rem;
+    letter-spacing: 0.7px;
+    font-size: 17px;
+    font-weight: 300;
+    text-shadow: 0px 0px 1.5px hsl(60, 84%, 59%);
+}
+
+button {
+    background-color: hsl(71, 73%, 54%);
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 25%;
+    border-radius: 5px;
+    border: 0;
+    bottom: 0;
+    color: honeydew;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1.25px;
+    box-shadow: 0 10px 14px rgb(63, 152, 155);
+}
+
+p {
+    font-size: 15.5px;
+    letter-spacing: 0.5px;
+    font-weight: 300;
+    color: rgb(178, 188, 193);
+    text-shadow: 0px 0px 0.05px rgb(200, 211, 216);
+    line-height: 1.5rem;
+    transform: scale(1, 0.98);
+}
+
+h2 {
+    padding-top: 0.1rem;
+    padding-bottom: 1rem;
+    font-weight: 500;
+    letter-spacing: 0.75px;
+    font-size: 17px;
+    text-shadow: 0px 0px 6px rgb(63, 152, 155);
+}
+
+table {
+    padding-bottom: 0.6rem;
+}
+
+#price {
+    font-size: 32px;
+    font-weight: 500;
+    padding-right: .9rem;
+    letter-spacing: 1px;
+    text-shadow: 0px 0px 6px rgb(63, 152, 155);
+    transform: scale(1.1, 1);
+}
+
+#time_frame {
+    font-size: 15.5px;
+    font-weight: 300;
+    letter-spacing: 0.7px;
+    color: rgb(131, 215, 213);
+    text-shadow: 0px 0px 4px rgb(63, 152, 155);
+}
+
+#lower_card_left {
+    color: rgb(214, 247, 247);
+    font-size: 15px;
+    letter-spacing: 0.6px;
+    font-weight: 300;
+    padding-bottom: 1.8rem;
+    text-shadow: 0px 0px 6px rgb(63, 152, 155);
+}
+
+.list {
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    color: rgb(176, 237, 237);
+    text-shadow: 0px 0px 4px rgb(79, 163, 165);
+    line-height: 145%;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+}
+
+@media screen and (max-width: 1000px) {
+    body {
+        width: 375px;
+        height: 900px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .card {
+        width: 309px;
+        height: 719px;
+    }
+    .upper-card {
+        height: 37%;
+        padding: 10% 7%;
+        border-radius: 6px 6px 0 0;
+    }
+    h1 {
+        font-size: 20px;
+        padding-bottom: 1rem;
+        text-shadow: 0px 0px 1px hsl(180, 75%, 83%);
+        letter-spacing: 0.25px;
+    }
+    .shout-out {
+        padding-bottom: 1rem;
+        letter-spacing: 0.5px;
+        font-size: 15px;
+        line-height: 1.25rem;
+        text-shadow: 0px 0px 1px 1px hsl(60, 84%, 59%);
+    }
+    p {
+        font-size: 13px;
+        letter-spacing: 0.35px;
+        font-weight: 300;
+        color: rgb(178, 188, 193);
+        text-shadow: 0px 0px 0.5px rgb(200, 211, 216);
+        line-height: 1.5rem;
+    }
+    .lower-card {
+        height: 63%;
+        width: 309px;
+    }
+    .lower-card-left {
+        height: 50%;
+        width: 100%;
+        border-radius: 0;
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+    h2 {
+        padding-top: 0.3rem;
+        padding-bottom: 1.1rem;
+    }
+    table {
+        padding-bottom: 0.4rem;
+    }
+    #price {
+        letter-spacing: 0.3px;
+        font-size: 30px;
+    }
+    #time_frame {
+        font-size: 15.5px;
+        font-weight: 300;
+        letter-spacing: 0.5px;
+    }
+    #lower_card_left {
+        letter-spacing: 0.3px;
+        font-weight: 400;
+        padding-bottom: 1.7rem;
+    }
+    .lower-card-right {
+        width: 100%;
+        height: 50%;
+        border-radius: 0 0 6px 6px;
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+    .list {
+        letter-spacing: 0;
+        font-size: 14px;
+        letter-spacing: 0.5px;
+        line-height: 145%;
+    }
+}
+
+@media screen and (min-width: 1441px) {
+    body {
+        background-color: rgb(230, 239, 246);
+        width: 1920px;
+        height: 1080px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
