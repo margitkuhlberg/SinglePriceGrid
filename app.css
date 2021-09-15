@@ -237,14 +237,3 @@ table {
         line-height: 145%;
     }
 }
-
-@media screen and (min-width: 1441px) {
-    body {
-        background-color: rgb(230, 239, 246);
-        width: 1920px;
-        height: 1080px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-}
