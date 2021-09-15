@@ -47,4 +47,3 @@ This project gave me a great experience working with both CSS and HTML. Though I
 ## Author
 
 - Website - [Margit](https://www.linkedin.com/in/margit-kuhlberg-a57b94203/?originalSubdomain=ee)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
