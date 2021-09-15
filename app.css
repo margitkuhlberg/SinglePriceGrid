@@ -8,7 +8,7 @@
 body {
     background-color: rgb(230, 239, 246);
     width: 1440px;
-    height: 800px;
+    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
